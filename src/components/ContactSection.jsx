@@ -296,7 +296,7 @@ const ContactSection = () => {
               <h4 className="font-medium mb-4">Follow Me</h4>
               <div className="flex space-x-4">
                 <a
-                  href="#"
+                  href="https://github.com/Achiriashley"
                   className="w-10 h-10 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-100 dark:hover:bg-blue-900 transition-colors"
                 >
                   <FaGithub className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" />
@@ -308,13 +308,13 @@ const ContactSection = () => {
                   <FaLinkedinIn className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" />
                 </a>
                 <a
-                  href="#"
+                  href="https://x.com/indahashley11?s=11&t=vkY6N_bwBd19sWedjLLyFQ"
                   className="w-10 h-10 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-100 dark:hover:bg-blue-900 transition-colors"
                 >
                   <FaTwitter className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/tall_ashley?igsh=MWR6cG9yODQ5dnF6ZA%3D%3D&utm_source=qr"
                   className="w-10 h-10 bg-gray-100 dark:bg-gray-700 rounded-full flex items-center justify-center hover:bg-blue-100 dark:hover:bg-blue-900 transition-colors"
                 >
                   <FaInstagram className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400" />
