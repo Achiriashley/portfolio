@@ -25,6 +25,7 @@ const projectData = [
     image: "/projects/ashleyjobs.jpg",
     technologies: ["Next.js", "React", "MongoDB", "Clerk", "Stripe", "Supabase", "shadcn/ui"],
     github: "https://github.com/Achiriashley/ashleyjobs",
+    live: "https://ashleyjobs.vercel.app/",
   },
   {
     title: "Image Search Engine",
