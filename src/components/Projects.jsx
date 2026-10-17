@@ -65,7 +65,7 @@
 
 import React from "react";
 import projectData from "@/Data/ProjectData";
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import { FaArrowRight, FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 
 
@@ -94,22 +94,28 @@ const Projects = () => {
                 <div className="flex justify-between items-start mb-2">
                   <h3 className="text-xl font-bold">{project.title}</h3>
                   <div className="flex space-x-2">
-                    <a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
-                    >
-                      <FaGithub/>
-                    </a>
-                    <a
-                      href={project.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
-                    >
-                      <FaExternalLinkAlt />
-                    </a>
+                    {project.github && (
+                      <a
+                        href={project.github}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`${project.title} source code on GitHub`}
+                        className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
+                      >
+                        <FaGithub />
+                      </a>
+                    )}
+                    {project.live && (
+                      <a
+                        href={project.live}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`${project.title} live site`}
+                        className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300"
+                      >
+                        <FaExternalLinkAlt />
+                      </a>
+                    )}
                   </div>
                 </div>
                 <p className="text-gray-600 dark:text-gray-300 mb-4">{project.description}</p>
@@ -130,10 +136,12 @@ const Projects = () => {
 
         <div className="text-center mt-12">
           <a
-            href="#"
+            href="https://github.com/Achiriashley?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-6 py-3 border border-blue-600 text-blue-600 rounded-lg font-medium hover:bg-blue-50 transition-colors dark:border-blue-400 dark:text-blue-400 dark:hover:bg-gray-700 inline-flex items-center"
           >
-            View All Projects <i className="fas fa-arrow-right ml-2"></i>
+            View All Projects <FaArrowRight className="ml-2" />
           </a>
         </div>
       </div>

@@ -1,56 +1,63 @@
+// Each project needs a title, description, image and technologies.
+// `github` and `live` are optional: leave them out and the matching icon is hidden.
 const projectData = [
   {
-    title: "E-commerce Platform",
+    title: "Fruidry",
     description:
-      "A full-featured e-commerce platform with product listings, cart functionality, and payment processing.",
-    image: "/picture.jpg",
-    technologies: ["React", "Node.js", "MongoDB", "Next.js", "Tailwind CSS", "supabase"],
+      "Bilingual (French/English) storefront for a Cameroonian freeze-dried fruit brand, with a cart, WhatsApp checkout, \"notify me\" for upcoming flavours and an admin panel for products and orders.",
+    image: "/projects/fruidry.jpg",
+    technologies: ["Next.js", "React", "Tailwind CSS", "Supabase", "Playwright"],
+    github: "https://github.com/Achiriashley/FRUIDRY",
+  },
+  {
+    title: "AshKicks Sneaker Store",
+    description:
+      "Full sneaker e-commerce store with search and filters, reviews, wishlist, mobile money checkout (MTN/Orange), order emails and an admin dashboard for products and orders.",
+    image: "/projects/ashkicks.png",
+    technologies: ["Next.js", "React", "MongoDB", "Clerk", "Zustand", "Tailwind CSS"],
     github: "https://github.com/Achiriashley/nike-ecommerce-nextapp",
     live: "https://nike-ecommerce-gamma.vercel.app/",
   },
-//   {
-//     title: "Task Management App",
-//     description:
-//       "A collaborative task management application with real-time updates and team features.",
-//     image: "/picture.jpg",
-//     technologies: ["Next.js", "TypeScript", "Firebase"],
-//     github: "#",
-//     live: "#",
-//   },
-{
+  {
+    title: "AshleyJobs",
+    description:
+      "Job board where recruiters post jobs and review applicants, and candidates browse and apply, with onboarding for both roles, a community feed and paid memberships.",
+    image: "/projects/ashleyjobs.jpg",
+    technologies: ["Next.js", "React", "MongoDB", "Clerk", "Stripe", "Supabase", "shadcn/ui"],
+    github: "https://github.com/Achiriashley/ashleyjobs",
+  },
+  {
+    title: "Image Search Engine",
+    description:
+      "Search royalty-free photos, vectors and illustrations from the Pixabay API, with category filters and infinite scroll.",
+    image: "/projects/searchingine.jpg",
+    technologies: ["Next.js", "React", "Axios", "Pixabay API", "Tailwind CSS"],
+    github: "https://github.com/Achiriashley/searchingine",
+  },
+  {
+    title: "MegaMart",
+    description:
+      "Online marketplace built from a Figma design, with deal sections for phones and electronics, top categories and product detail pages.",
+    image: "/projects/megamart.jpg",
+    technologies: ["Next.js", "React", "Tailwind CSS", "Figma"],
+    github: "https://github.com/Achiriashley/figmaapp",
+  },
+  {
     title: "Portfolio Website",
-    description: "A responsive portfolio website built with modern web technologies.",
+    description: "This responsive portfolio website, with about, skills, projects and contact sections.",
     image: "/port.png",
-    technologies: ["HTML", "CSS", "JavaScript"],
+    technologies: ["Next.js", "React", "Tailwind CSS"],
     github: "https://github.com/Achiriashley/portfolio",
     live: "https://portfolio-ten-ashy-53.vercel.app/",
   },
   {
-    title: "Social Media Dashboard",
+    title: "Cinemix",
     description:
-      "Analytics dashboard for social media managers with data visualization and reporting.",
-    image: "/picture.jpg",
-    technologies: ["React", "D3.js", "Express"],
-    github: "#",
-    live: "#",
+      "Cinema website listing movies by day of the week, with movie pages, a cart and user sign-up and login.",
+    image: "/projects/cinemix.jpg",
+    technologies: ["PHP", "MySQL", "HTML", "CSS", "JavaScript"],
+    github: "https://github.com/Achiriashley/file",
   },
-  
-//   {
-//     title: "Weather App",
-//     description: "A weather application that provides forecasts based on user location.",
-//     image: "/picture.jpg",
-//     technologies: ["React", "API", "Geolocation"],
-//     github: "#",
-//     live: "#",
-//   },
-//   {
-//     title: "Recipe Finder",
-//     description: "An application to search for recipes based on ingredients you have available.",
-//     image: "/picture.jpg",
-//     technologies: ["Vue.js", "API", "Firebase"],
-//     github: "#",
-//     live: "#",
-//   },
 ];
 
 export default projectData;
