@@ -2,6 +2,14 @@
 // `github` and `live` are optional: leave them out and the matching icon is hidden.
 const projectData = [
   {
+    title: "Fruidry",
+    description:
+      "Bilingual (French/English) storefront for a Cameroonian freeze-dried fruit brand, with a cart, WhatsApp checkout, \"notify me\" for upcoming flavours and an admin panel for products and orders.",
+    image: "/projects/fruidry.jpg",
+    technologies: ["Next.js", "React", "Tailwind CSS", "Supabase", "Playwright"],
+    github: "https://github.com/Achiriashley/FRUIDRY",
+  },
+  {
     title: "AshKicks Sneaker Store",
     description:
       "Full sneaker e-commerce store with search and filters, reviews, wishlist, mobile money checkout (MTN/Orange), order emails and an admin dashboard for products and orders.",
